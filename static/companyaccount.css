@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    background-color: white;
+    margin: 2% 5%;
+    gap: 2%;
+}
+.box1 {
+    width: 60%;
+    padding: 2%;
+    height: auto;
+}
+.box2 {
+    width: 40%;
+}
+.box2 img{
+    margin-top: 10%;
+    width: 90%;
+    height: 80%;
+}
+h1{
+    color: orangered;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.single{
+    display: flex;
+    gap: 6%;
+}
+
+.form-container {
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-top: 4%;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.radio-group {
+    display: flex;
+    gap: 10px;
+}
+
+.radio-group label {
+    font-weight: normal;
+}
+
+.btn {
+    margin-left: 90%;
+    padding: 10px;
+    background-color: orangered;
+    color: #fff;
+    font-size: 16px;
+    border: none;   
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.btn:hover {
+    background-color: #c0392b;
+}
+
+
+.radios {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center; 
+}
+
+.radios label {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 15px;
+    font-family: Arial, sans-serif; 
+    font-size: 14px; 
+}
+
+.radios input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none; 
+    width: 16px;
+    height: 16px;
+    margin-right: 8px; 
+    border: 2px solid #333; 
+    border-radius: 0; 
+    outline: none; 
+    cursor: pointer; 
+}
+
+.radios input[type="radio"]:checked {
+    background-color: #333;
+}

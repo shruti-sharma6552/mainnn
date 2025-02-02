@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - ZADAR{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+{% endblock %}
+
+{% block content %}
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi distinctio facere minima, porro ipsam maiores
+        officia! A non quod, odit, ab beatae dignissimos, tempore reiciendis laudantium fugiat sequi consectetur
+        quaerat?</p>
+    <div id="video">
+        <video controls poster="/static/images/ZDAR.png" muted src="/static/images/video.mp4"></video>
+    </div>
+    <div id="cs">
+        <img src="/static/images/ZDAR.png" alt="">
+        <h1>Connecting Skills With Opportunities</h1>
+    </div>
+    <p id="trust">They Trust Us</p>
+
+    <div class="container">
+        <div class="part">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt nulla aut vitae temporibus esse ipsam
+                eius. Vero quos sequi, perspiciatis eos nemo earum aspernatur voluptatem similique esse voluptatum
+                placeat qui.</p>
+            <div class="ww">
+                <h3>Viakram Rathore</h3>
+                <p>Data Scientist</p>
+                <img src="/static/images/download (1).png" alt="">
+            </div>
+
+        </div>
+        <div class="part">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt nulla aut vitae temporibus esse ipsam
+                eius. Vero quos sequi, perspiciatis eos nemo earum aspernatur voluptatem similique esse voluptatum
+                placeat qui.</p>
+            <div class="ww">
+                <h3>Viakram Rathore</h3>
+                <p>Data Scientist</p>
+                <img src="/static/images/download (1).png" alt="">
+            </div>
+        </div>
+        <div class="part">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt nulla aut vitae temporibus esse ipsam
+                eius. Vero quos sequi, perspiciatis eos nemo earum aspernatur voluptatem similique esse voluptatum
+                placeat qui.</p>
+            <div class="ww">
+                <h3>Viakram Rathore</h3>
+                <p>Data Scientist</p>
+                <img src="/static/images/download (1).png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="iimg">
+        <img src="/static/images/adidas.png" alt="">
+        <img src="/static/images/apple.png" alt="">
+        <img src="/static/images/gucci.png" alt="">
+        <img src="/static/images/starbucs.jpeg" alt="">
+        <img src="/static/images/xvl.png" alt="">
+        <img src="/static/images/adidas.png" alt="">
+        <img src="/static/images/apple.png" alt="">
+        <img src="/static/images/gucci.png" alt="">
+    </div>
+    <div class="sl">
+        <div>
+            <h1>10.0000+</h1>
+            <p>Candidates</p>
+        </div>
+        <div>
+            <h1>3.0000+</h1>
+            <p>Companies</p>
+        </div>
+        <div>
+            <h1>10</h1>
+            <p>Countries in scope</p>
+        </div>
+    </div>
+    <div class="buton">
+        <button style="background-color: rgb(12, 21, 156);">Start Hiring Now</button>
+        <button style="background-color: rgb(209, 41, 12);">Find Your Job Opportunity</button>
+    </div>
+{% endblock %}

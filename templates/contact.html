@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - ZADAR{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='contact.css') }}">
+{% endblock %}
+
+{% block content %}
+
+    <div class="banner">
+        <h1>Get In Touch With Zdar</h1>
+        <p>We're here to help! whether you are company looking to greamlinr your recuriment process or a candidate seeking new opportunities, the Zdar team is ready to assist you.</p>
+    </div>
+    
+    <section class="contact-section">
+        <h2>Contact Us For</h2>
+        <div class="contact-details">
+            <div>
+                <ul>
+                    <li>1. General inquiries about our platform</li>
+                    <li>2. Support for companies and candidates</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>3. Support for companies and candidates</li>
+                    <li>4. Support for companies and candidates</li>
+                </ul>
+            </div>
+        </div>
+    
+        <h2>Reach Us At</h2>
+        <div class="contact-details">
+            <div>
+                <div class="photo">
+                    <img src="/static/images/email.png">
+                    <p>Email: support@zdar.com</p>
+                </div>
+                <div class="photo">
+                    <img src="/static/images/email.png">
+                    <p>Office hours: Monday – Friday, 9 AM – 6 PM</p>
+                </div>
+                
+            </div>
+            <div>
+                <div class="photo">
+                    <img src="/static/images/email.png">
+                    <p>Phone: 123-456-7890</p>
+                </div>
+                <div class="photo">
+                    <img src="/static/images/email.png">
+                    <p>Office Location: Zdar HQ [Your Address], [City, Country]</p>
+                </div>
+            </div>
+        </div>
+    
+        <h2>Stay Connected</h2>
+        <div class="connection">
+            <a href="#"><img src="/static/images/facebook.png" alt="Facebook" /></a>
+            <a href="#"><img src="/static/images/twitter.png" alt="Twitter" /></a>
+            <a href="#"><img src="/static/images/linkedin.png" alt="Instagram" /></a>
+        </div>
+    </section>
+{% endblock %}

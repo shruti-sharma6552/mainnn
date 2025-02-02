@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+footer{
+    height: 60px;
+    background-color: rgb(23, 64, 78);
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: center;
+    position: relative;
+    bottom: 1px;
+    color: white;
+    font-family: sans-serif; 
+}
+footer p{
+    padding: 0 15px;
+}
+.cent{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.fRight{
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+    padding: 0 48px;
+
+}

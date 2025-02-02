@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 90px;
+    margin: 40px 20px;
+    padding: 50px;
+}
+.hero{
+    
+    padding-top: 80px;
+}
+.hero h2{
+    color: #fc7200;
+    margin-bottom:30px ;
+}
+.hero p{
+    text-align: justify;
+    line-height:1.5;
+}

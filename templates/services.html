@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - ZADAR{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='services.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="service">
+    <div class="box">
+        <div class="content">
+        <h2 class="first">Tailored Solutions For Companies And Candidates</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, temporibus.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ratione, et dicta harum ipsa optio.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ratione, et dicta harum ipsa optio.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    </div>
+    <div class="company">
+        <div class="Cright">
+        <h2 class="orange">For Companies</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, magnam adipisci! Quidem illum harum omnis! Perspiciatis totam minima quibusdam distinctio, asperiores debitis quaerat iure voluptate nesciunt, molestiae omnis. Illo exercitationem cupiditate sit quis nemo quasi sapiente, omnis numquam saepe, neque nam repudiandae tempora voluptas ab! Voluptas inventore perferendis aliquam, fugit quia eum sit sint eaque, rerum atque est, ad dolorem.</p></div>
+        <img src="/static/images/emplo.jpg" alt="">
+    </div>
+    <div class="candidate">
+        
+            <img src="/static/images/candidate.png" alt="">
+            <div class="Can">
+            <h2 class="orange">For Candidates</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, magnam adipisci! Quidem illum harum omnis! Perspiciatis totam minima quibusdam distinctio, asperiores debitis quaerat iure voluptate nesciunt, molestiae omnis. Illo exercitationem cupiditate sit quis nemo quasi sapiente, omnis numquam saepe, neque nam repudiandae tempora voluptas ab! Voluptas inventore perferendis aliquam, fugit quia eum sit sint eaque, rerum atque est, ad dolorem.</p></div>
+    </div>
+</div>
+{% endblock %}

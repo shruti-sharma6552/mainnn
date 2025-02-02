@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - ZADAR{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='signup.css') }}">
+{% endblock %}
+
+{% block content %}
+   <main>
+        <div class="company">
+            <div class="Cright">
+            <h2 class="orange">Sign Up to ZDAR</h2>
+            
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, magnam adipisci! Quidem illum harum omnis! Perspiciatis totam minima quibusdam distinctio, asperiores debitis quaerat iure voluptate nesciunt, molestiae omnis. Illo exercitationem cupiditate sit quis nemo quasi sapiente, omnis numquam saepe, neque nam repudiandae tempora voluptas ab! Voluptas inventore perferendis aliquam, fugit quia eum sit sint eaque, rerum atque est, ad dolorem.</p><br><br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto sequi autem ratione eum sit quidem repudiandae doloribus, dolorum, dolor inventore temporibus. Laborum commodi dolorum voluptate ea sunt repudiandae, ullam iusto aperiam amet, eaque voluptatem ut quod doloremque beatae a illum voluptatibus esse culpa! Dolore deserunt soluta at! Nemo quas minima minus libero est voluptatum alias earum molestias? Officia vitae ipsa recusandae deserunt facilis qui accusamus et porro? Suscipit, debitis id placeat, eos ratione corporis quisquam, dolores perferendis beatae sequi rem! </p>
+        </div>
+            <img src="/static/images/signup.jpeg" alt="">
+        </div>
+        <h2 class="inter">INTERSTED?</h2>
+        <div class="inter-in">
+            <p class="first">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora hic tempore, consequuntur corrupti quae labore asperiores numquam sapiente illo animi ut atque amet necessitatibus fugiat velit molestiae, ipsa ullam </p>
+            <p class="second
+            ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quaerat ullam ex incidunt temporibus molestias!
+            </p>
+            <p class="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ad officiis voluptas, saepe soluta natus voluptatibus quam, doloribus alias inventore incidunt qui quasi molestiae animi error corrupti totam </p>
+        </div>
+        <span class="button-sign">
+            <a href="{{ url_for('signuporloginascompany') }}" class="blue-btn">Sign Up As A  Company</a>
+            <a href="{{ url_for('signuporloginascandidate') }}" class="orange-btn">Sign Up As A  Candidate</a>
+        </span>
+    </main>
+{% endblock %}

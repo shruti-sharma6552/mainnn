@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - ZADAR{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="hero">
+    <h2>About ZADAR</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, illo corrupti, optio aliquid
+        voluptatibus harum vitae sapiente qui aperiam commodi id aliquam sit facere porro natus officia dolor.
+        Consectetur rem veritatis non suscipit natus autem libero nisi officia, odit temporibus dolorem id!
+        Porro debitis saepe ad nam molestiae quos magnam ab perspiciatis aperiam, sequi rerum necessitatibus
+        voluptas quod obcaecati adipisci?</p>
+</div>
+<img src="/static/images/side.png" alt="">
+{% endblock %}

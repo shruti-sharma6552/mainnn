@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - ZADAR{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='signascandidate.css') }}">
+{% endblock %}
+
+{% block content %}
+    <main>
+        <img src="/static/images/logo.png">
+        <h1>Sign-Up As A Candidate</h1>
+        <div>
+            <p>Each profile has a requirement to answer an initial survey of around 20 questions according to initial search. It is strongly recommended to fill out the account profile accurately as possble to benefit the best experience from the platform and be able to match the best results through our AI and query engines.</p>
+        </div>
+        <a href="{{ url_for('candidateaccount') }}" class="orange-btn">Start</a>
+    </main>
+{% endblock %}

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.service{
+    
+    height: 60vh;
+    background-image:url("/static/images/back.png");
+    background-position: center center;
+    background-size:auto;
+    background-repeat: no-repeat;
+    
+    
+}
+.box{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.69;
+    position: relative;
+    
+}
+.content {
+    
+    text-align: center;
+    position: relative;
+    color:white;
+    top: 120px;
+   z-index: 0; 
+    
+}
+.company{
+    
+    display:flex;
+    justify-content: space-around;
+    margin: 90px 30px;
+    gap: 90px;
+
+    
+
+}
+
+.company img{
+    width: 40%;
+}
+
+.Cright {
+    margin-top: 60px;
+    width: 529px;
+    line-height: 1.5;
+
+}
+.orange{
+    color: #fc7200;
+    line-height: 3;
+}
+
+
+.candidate{
+    height: 460px;
+    position: relative;
+    top: 20px;
+    display:flex;
+    justify-content: space-around;
+    margin: 0 30px;
+    gap: 90px;
+    background-color: rgba(230, 224, 224, 0.678);
+}
+.candidate img{
+    width: 430px;
+    margin: 83px ;
+}
+.Can{
+    line-height: 1.8;
+    width: 40%;
+    margin-top: 6%;
+}
+
+
+
+
+
